@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Personal Chatbot">
+    <meta name="author" content="Anoop">
+
+    <title>Speech and Web search  Basic Chat Bot</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center"><h2>Web Speech and Search BOT</h2></div>
+            <div class="row">
+              <div class="col-md-6">
+                  <div class="panel panel-default">
+                      <div class="panel-heading">You Said</div>
+                      <div class="panel-body"><em class="output-you">What you said will come here</em></div>
+                  </div>
+              </div>    
+              <div class="col-md-6">    
+                  <div class="panel panel-default">
+                      <div class="panel-heading">Chatbot Reply</div>
+                      <div class="panel-body"><em class="output-bot">Chat Bots Response will come here</em></div>
+                  </div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Search Result</div>
+                        <div class="panel-body"><em class="output-search">Search Result will come here</em></div>
+                    </div>
+                </div>    
+            </div>
+            <div class="col-md-12 text-center" style="margin-bottom:20px;"> 
+                <button class="btn btn-primary btn-lg"><i class="fa fa-microphone"></i> Lets Talk</button>
+            </div>
+  </div>
+  <footer class="footer">
+      <div class="container">
+        <span class="text-muted">For Getting search result you need to restart node server after getting one result.If google finds this is a bot the search will be blocked. This is for <span class="badge">Educational Purposes</span> </span>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
